@@ -1,0 +1,158 @@
+[
+  {
+    "id": "game-1",
+    "date": "2026-04-02",
+    "status": "scheduled",
+    "time": "7:00 PM ET",
+    "home_team": {
+      "id": 8,
+      "name": "Pistons",
+      "full_name": "Detroit Pistons",
+      "abbreviation": "DET",
+      "city": "Detroit",
+      "conference": "East",
+      "division": "Central"
+    },
+    "visitor_team": {
+      "id": 20,
+      "name": "Timberwolves",
+      "full_name": "Minnesota Timberwolves",
+      "abbreviation": "MIN",
+      "city": "Minnesota",
+      "conference": "West",
+      "division": "Northwest"
+    },
+    "home_team_score": 0,
+    "visitor_team_score": 0
+  },
+  {
+    "id": "game-2",
+    "date": "2026-04-02",
+    "status": "scheduled",
+    "time": "7:00 PM ET",
+    "home_team": {
+      "id": 4,
+      "name": "Hornets",
+      "full_name": "Charlotte Hornets",
+      "abbreviation": "CHA",
+      "city": "Charlotte",
+      "conference": "East",
+      "division": "Southeast"
+    },
+    "visitor_team": {
+      "id": 24,
+      "name": "Suns",
+      "full_name": "Phoenix Suns",
+      "abbreviation": "PHX",
+      "city": "Phoenix",
+      "conference": "West",
+      "division": "Pacific"
+    },
+    "home_team_score": 0,
+    "visitor_team_score": 0
+  },
+  {
+    "id": "game-3",
+    "date": "2026-04-02",
+    "status": "scheduled",
+    "time": "9:30 PM ET",
+    "home_team": {
+      "id": 21,
+      "name": "Thunder",
+      "full_name": "Oklahoma City Thunder",
+      "abbreviation": "OKC",
+      "city": "Oklahoma City",
+      "conference": "West",
+      "division": "Northwest"
+    },
+    "visitor_team": {
+      "id": 14,
+      "name": "Lakers",
+      "full_name": "Los Angeles Lakers",
+      "abbreviation": "LAL",
+      "city": "Los Angeles",
+      "conference": "West",
+      "division": "Pacific"
+    },
+    "home_team_score": 0,
+    "visitor_team_score": 0
+  },
+  {
+    "id": "game-4",
+    "date": "2026-04-02",
+    "status": "scheduled",
+    "time": "10:00 PM ET",
+    "home_team": {
+      "id": 10,
+      "name": "Warriors",
+      "full_name": "Golden State Warriors",
+      "abbreviation": "GSW",
+      "city": "Golden State",
+      "conference": "West",
+      "division": "Pacific"
+    },
+    "visitor_team": {
+      "id": 5,
+      "name": "Cavaliers",
+      "full_name": "Cleveland Cavaliers",
+      "abbreviation": "CLE",
+      "city": "Cleveland",
+      "conference": "East",
+      "division": "Central"
+    },
+    "home_team_score": 0,
+    "visitor_team_score": 0
+  },
+  {
+    "id": "game-5",
+    "date": "2026-04-02",
+    "status": "scheduled",
+    "time": "10:00 PM ET",
+    "home_team": {
+      "id": 22,
+      "name": "Trail Blazers",
+      "full_name": "Portland Trail Blazers",
+      "abbreviation": "POR",
+      "city": "Portland",
+      "conference": "West",
+      "division": "Northwest"
+    },
+    "visitor_team": {
+      "id": 19,
+      "name": "Pelicans",
+      "full_name": "New Orleans Pelicans",
+      "abbreviation": "NOP",
+      "city": "New Orleans",
+      "conference": "West",
+      "division": "Southwest"
+    },
+    "home_team_score": 0,
+    "visitor_team_score": 0
+  },
+  {
+    "id": "game-6",
+    "date": "2026-04-02",
+    "status": "scheduled",
+    "time": "10:30 PM ET",
+    "home_team": {
+      "id": 13,
+      "name": "Clippers",
+      "full_name": "Los Angeles Clippers",
+      "abbreviation": "LAC",
+      "city": "Los Angeles",
+      "conference": "West",
+      "division": "Pacific"
+    },
+    "visitor_team": {
+      "id": 28,
+      "name": "Spurs",
+      "full_name": "San Antonio Spurs",
+      "abbreviation": "SAS",
+      "city": "San Antonio",
+      "conference": "West",
+      "division": "Southwest"
+    },
+    "home_team_score": 0,
+    "visitor_team_score": 0
+  }
+]

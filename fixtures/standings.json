@@ -1,0 +1,26 @@
+{
+  "west": [
+    { "rank": 1, "team": "Oklahoma City Thunder", "abbreviation": "OKC", "wins": 60, "losses": 16, "pct": 0.789, "gb": "-", "streak": "W3", "last10": "8-2" },
+    { "rank": 2, "team": "San Antonio Spurs", "abbreviation": "SAS", "wins": 58, "losses": 18, "pct": 0.763, "gb": "2", "streak": "W5", "last10": "9-1" },
+    { "rank": 3, "team": "Los Angeles Lakers", "abbreviation": "LAL", "wins": 50, "losses": 26, "pct": 0.658, "gb": "10", "streak": "L1", "last10": "6-4" },
+    { "rank": 4, "team": "Denver Nuggets", "abbreviation": "DEN", "wins": 49, "losses": 28, "pct": 0.636, "gb": "11.5", "streak": "W2", "last10": "7-3" },
+    { "rank": 5, "team": "Minnesota Timberwolves", "abbreviation": "MIN", "wins": 46, "losses": 29, "pct": 0.613, "gb": "13.5", "streak": "L2", "last10": "5-5" },
+    { "rank": 6, "team": "Houston Rockets", "abbreviation": "HOU", "wins": 47, "losses": 29, "pct": 0.618, "gb": "13", "streak": "W1", "last10": "6-4" },
+    { "rank": 7, "team": "Los Angeles Clippers", "abbreviation": "LAC", "wins": 38, "losses": 39, "pct": 0.494, "gb": "22.5", "streak": "L3", "last10": "4-6" },
+    { "rank": 8, "team": "Golden State Warriors", "abbreviation": "GSW", "wins": 35, "losses": 41, "pct": 0.461, "gb": "24.5", "streak": "L1", "last10": "4-6" },
+    { "rank": 9, "team": "Portland Trail Blazers", "abbreviation": "POR", "wins": 30, "losses": 47, "pct": 0.390, "gb": "30.5", "streak": "W2", "last10": "5-5" },
+    { "rank": 10, "team": "Phoenix Suns", "abbreviation": "PHX", "wins": 22, "losses": 54, "pct": 0.289, "gb": "38", "streak": "L4", "last10": "3-7" },
+    { "rank": 11, "team": "New Orleans Pelicans", "abbreviation": "NOP", "wins": 18, "losses": 58, "pct": 0.237, "gb": "42", "streak": "L6", "last10": "2-8" }
+  ],
+  "east": [
+    { "rank": 1, "team": "Detroit Pistons", "abbreviation": "DET", "wins": 55, "losses": 21, "pct": 0.724, "gb": "-", "streak": "W4", "last10": "8-2" },
+    { "rank": 2, "team": "Boston Celtics", "abbreviation": "BOS", "wins": 51, "losses": 25, "pct": 0.671, "gb": "4", "streak": "W2", "last10": "7-3" },
+    { "rank": 3, "team": "New York Knicks", "abbreviation": "NYK", "wins": 49, "losses": 28, "pct": 0.636, "gb": "6.5", "streak": "W1", "last10": "6-4" },
+    { "rank": 4, "team": "Cleveland Cavaliers", "abbreviation": "CLE", "wins": 47, "losses": 29, "pct": 0.618, "gb": "8", "streak": "W3", "last10": "7-3" },
+    { "rank": 5, "team": "Atlanta Hawks", "abbreviation": "ATL", "wins": 44, "losses": 33, "pct": 0.571, "gb": "11.5", "streak": "L1", "last10": "5-5" },
+    { "rank": 6, "team": "Philadelphia 76ers", "abbreviation": "PHI", "wins": 42, "losses": 34, "pct": 0.553, "gb": "13", "streak": "W2", "last10": "6-4" },
+    { "rank": 7, "team": "Indiana Pacers", "abbreviation": "IND", "wins": 39, "losses": 37, "pct": 0.513, "gb": "16", "streak": "L2", "last10": "4-6" },
+    { "rank": 8, "team": "Miami Heat", "abbreviation": "MIA", "wins": 37, "losses": 39, "pct": 0.487, "gb": "18", "streak": "W1", "last10": "5-5" },
+    { "rank": 9, "team": "Charlotte Hornets", "abbreviation": "CHA", "wins": 21, "losses": 56, "pct": 0.273, "gb": "34.5", "streak": "L5", "last10": "2-8" }
+  ]
+}

@@ -1,0 +1,194 @@
+{
+  "DET": {
+    "last10": [
+      { "date": "2026-03-31", "opponent": "MIL", "result": "W", "score": "118-104" },
+      { "date": "2026-03-29", "opponent": "CHI", "result": "W", "score": "122-98" },
+      { "date": "2026-03-27", "opponent": "TOR", "result": "W", "score": "115-107" },
+      { "date": "2026-03-25", "opponent": "IND", "result": "W", "score": "109-101" },
+      { "date": "2026-03-23", "opponent": "NYK", "result": "L", "score": "108-112" },
+      { "date": "2026-03-21", "opponent": "PHI", "result": "W", "score": "126-114" },
+      { "date": "2026-03-19", "opponent": "BOS", "result": "W", "score": "118-110" },
+      { "date": "2026-03-17", "opponent": "MIA", "result": "W", "score": "114-99" },
+      { "date": "2026-03-15", "opponent": "ATL", "result": "L", "score": "105-111" },
+      { "date": "2026-03-13", "opponent": "CLE", "result": "W", "score": "121-115" }
+    ],
+    "notable": "Best record in the East. Cade Cunningham (OUT - chest, re-evaluated in one week) has been their engine all season at 27.8 PPG, 8.4 APG. Isaiah Stewart also OUT (calf). Without both, Ausar Thompson and Tim Hardaway Jr. are carrying the offense. DET still has the East's best record and a 4-game win streak.",
+    "season_leader": "Cade Cunningham: 27.8 PPG, 8.4 APG, 5.1 RPG (OUT - chest)"
+  },
+  "MIN": {
+    "last10": [
+      { "date": "2026-03-31", "opponent": "DEN", "result": "L", "score": "101-108" },
+      { "date": "2026-03-29", "opponent": "UTA", "result": "L", "score": "112-116" },
+      { "date": "2026-03-27", "opponent": "MEM", "result": "W", "score": "119-104" },
+      { "date": "2026-03-25", "opponent": "SAC", "result": "W", "score": "118-109" },
+      { "date": "2026-03-23", "opponent": "DAL", "result": "W", "score": "124-117" },
+      { "date": "2026-03-21", "opponent": "OKC", "result": "L", "score": "99-118" },
+      { "date": "2026-03-19", "opponent": "HOU", "result": "W", "score": "113-107" },
+      { "date": "2026-03-17", "opponent": "POR", "result": "W", "score": "128-101" },
+      { "date": "2026-03-15", "opponent": "NOP", "result": "L", "score": "104-107" },
+      { "date": "2026-03-13", "opponent": "GSW", "result": "W", "score": "121-109" }
+    ],
+    "notable": "Anthony Edwards is OUT tonight (knee/illness). Jaden McDaniels also OUT (left knee). MIN is 5-5 last 10, slipping from 5-seed while HOU is 1 game back. Without Edwards, Mike Conley and Naz Reid will need to lead. Rudy Gobert is the anchor defensively.",
+    "season_leader": "Anthony Edwards: 31.2 PPG, 5.8 RPG, 4.9 APG (OUT tonight - knee/illness)"
+  },
+  "CHA": {
+    "last10": [
+      { "date": "2026-03-31", "opponent": "WAS", "result": "L", "score": "98-104" },
+      { "date": "2026-03-29", "opponent": "ORL", "result": "L", "score": "101-112" },
+      { "date": "2026-03-27", "opponent": "TOR", "result": "L", "score": "105-109" },
+      { "date": "2026-03-25", "opponent": "ATL", "result": "L", "score": "99-115" },
+      { "date": "2026-03-23", "opponent": "CHI", "result": "L", "score": "103-118" },
+      { "date": "2026-03-21", "opponent": "MIA", "result": "W", "score": "111-108" },
+      { "date": "2026-03-19", "opponent": "IND", "result": "L", "score": "97-121" },
+      { "date": "2026-03-17", "opponent": "BRK", "result": "W", "score": "118-104" },
+      { "date": "2026-03-15", "opponent": "DET", "result": "L", "score": "100-122" },
+      { "date": "2026-03-13", "opponent": "NYK", "result": "L", "score": "95-118" }
+    ],
+    "notable": "Lost 5 straight. 21-56, locked into lottery — aiming for top-3 pick. LaMelo Ball (ankle) still out for the season. Miles Bridges is the only consistent scorer at 19.4 PPG.",
+    "season_leader": "Miles Bridges: 19.4 PPG, 7.2 RPG"
+  },
+  "PHX": {
+    "last10": [
+      { "date": "2026-03-31", "opponent": "LAL", "result": "L", "score": "104-118" },
+      { "date": "2026-03-29", "opponent": "DEN", "result": "L", "score": "101-121" },
+      { "date": "2026-03-27", "opponent": "SAS", "result": "L", "score": "108-124" },
+      { "date": "2026-03-25", "opponent": "OKC", "result": "L", "score": "99-130" },
+      { "date": "2026-03-23", "opponent": "HOU", "result": "W", "score": "115-113" },
+      { "date": "2026-03-21", "opponent": "MIN", "result": "W", "score": "118-109" },
+      { "date": "2026-03-19", "opponent": "GSW", "result": "W", "score": "122-119" },
+      { "date": "2026-03-17", "opponent": "UTA", "result": "L", "score": "103-108" },
+      { "date": "2026-03-15", "opponent": "POR", "result": "L", "score": "104-112" },
+      { "date": "2026-03-13", "opponent": "SAC", "result": "L", "score": "98-110" }
+    ],
+    "notable": "Full tank mode. 22-54, 10th in West, locked out of play-in. Kevin Durant playing through an ankle sprain but putting up 28.1 PPG on a bad team. Front office shopping him this offseason.",
+    "season_leader": "Kevin Durant: 28.1 PPG, 7.3 RPG, 5.0 APG"
+  },
+  "OKC": {
+    "last10": [
+      { "date": "2026-03-31", "opponent": "HOU", "result": "W", "score": "130-114" },
+      { "date": "2026-03-29", "opponent": "UTA", "result": "W", "score": "128-98" },
+      { "date": "2026-03-27", "opponent": "MEM", "result": "W", "score": "119-104" },
+      { "date": "2026-03-25", "opponent": "SAC", "result": "L", "score": "109-118" },
+      { "date": "2026-03-23", "opponent": "NOP", "result": "W", "score": "125-101" },
+      { "date": "2026-03-21", "opponent": "MIN", "result": "W", "score": "118-99" },
+      { "date": "2026-03-19", "opponent": "DEN", "result": "W", "score": "114-107" },
+      { "date": "2026-03-17", "opponent": "LAL", "result": "L", "score": "118-122" },
+      { "date": "2026-03-15", "opponent": "LAC", "result": "W", "score": "135-112" },
+      { "date": "2026-03-13", "opponent": "SAS", "result": "W", "score": "121-117" }
+    ],
+    "notable": "Best team in the West. Shai Gilgeous-Alexander dropped 52 pts vs Denver two weeks ago. OKC is 60-16 but LAL beat them at home on March 17th (122-118). SGA averaging 34.1 PPG this month. This is a revenge spot for OKC.",
+    "season_leader": "Shai Gilgeous-Alexander: 32.4 PPG, 5.5 APG, 4.8 RPG"
+  },
+  "LAL": {
+    "last10": [
+      { "date": "2026-03-31", "opponent": "PHX", "result": "W", "score": "118-104" },
+      { "date": "2026-03-29", "opponent": "LAC", "result": "W", "score": "127-112" },
+      { "date": "2026-03-27", "opponent": "SAC", "result": "L", "score": "112-119" },
+      { "date": "2026-03-25", "opponent": "NOP", "result": "W", "score": "121-108" },
+      { "date": "2026-03-23", "opponent": "MEM", "result": "W", "score": "118-107" },
+      { "date": "2026-03-21", "opponent": "DAL", "result": "W", "score": "122-115" },
+      { "date": "2026-03-19", "opponent": "DEN", "result": "L", "score": "108-117" },
+      { "date": "2026-03-17", "opponent": "OKC", "result": "W", "score": "122-118" },
+      { "date": "2026-03-15", "opponent": "SAS", "result": "L", "score": "105-112" },
+      { "date": "2026-03-13", "opponent": "MIN", "result": "W", "score": "119-110" }
+    ],
+    "notable": "LeBron James is 41 years old and averaging 24.8 PPG — still defying everything. LAL holds the #3 seed but DEN is only 1.5 games back. LAL beat OKC 122-118 on March 17th on the road — tonight OKC gets them at home for the rematch.",
+    "season_leader": "LeBron James: 24.8 PPG, 8.1 APG, 7.4 RPG"
+  },
+  "GSW": {
+    "last10": [
+      { "date": "2026-03-31", "opponent": "SAC", "result": "W", "score": "118-112" },
+      { "date": "2026-03-29", "opponent": "UTA", "result": "L", "score": "104-109" },
+      { "date": "2026-03-27", "opponent": "POR", "result": "W", "score": "121-108" },
+      { "date": "2026-03-25", "opponent": "NOP", "result": "L", "score": "105-114" },
+      { "date": "2026-03-23", "opponent": "MEM", "result": "W", "score": "119-111" },
+      { "date": "2026-03-21", "opponent": "MIN", "result": "L", "score": "109-121" },
+      { "date": "2026-03-19", "opponent": "PHX", "result": "L", "score": "119-122" },
+      { "date": "2026-03-17", "opponent": "DAL", "result": "W", "score": "116-109" },
+      { "date": "2026-03-15", "opponent": "DEN", "result": "L", "score": "101-118" },
+      { "date": "2026-03-13", "opponent": "MIN", "result": "L", "score": "109-121" }
+    ],
+    "notable": "35-41, 8-seed in play-in. Stephen Curry is OUT (injury). Also missing Jimmy Butler, Al Horford, Moses Moody — GSW is severely shorthanded. This is essentially a must-win to stay in play-in contention, and they'll need to do it without their star.",
+    "season_leader": "Stephen Curry: 28.6 PPG, 6.2 APG (OUT - injury)"
+  },
+  "CLE": {
+    "last10": [
+      { "date": "2026-03-31", "opponent": "BOS", "result": "W", "score": "114-108" },
+      { "date": "2026-03-29", "opponent": "MIL", "result": "W", "score": "121-104" },
+      { "date": "2026-03-27", "opponent": "ATL", "result": "W", "score": "118-110" },
+      { "date": "2026-03-25", "opponent": "NYK", "result": "L", "score": "109-115" },
+      { "date": "2026-03-23", "opponent": "CHI", "result": "W", "score": "128-101" },
+      { "date": "2026-03-21", "opponent": "TOR", "result": "W", "score": "119-98" },
+      { "date": "2026-03-19", "opponent": "DET", "result": "L", "score": "115-121" },
+      { "date": "2026-03-17", "opponent": "IND", "result": "W", "score": "116-108" },
+      { "date": "2026-03-15", "opponent": "PHI", "result": "W", "score": "118-112" },
+      { "date": "2026-03-13", "opponent": "DET", "result": "L", "score": "115-121" }
+    ],
+    "notable": "Won 7 of last 10, surging at the right time. Donovan Mitchell averaging 31.2 PPG over last 10 games. CLE is the 4-seed East, 8 games back of DET. Road game at GSW — Mitchell has never won a playoff series but this CLE team looks different.",
+    "season_leader": "Donovan Mitchell: 29.4 PPG, 5.2 APG, 4.9 RPG"
+  },
+  "POR": {
+    "last10": [
+      { "date": "2026-03-31", "opponent": "OKC", "result": "L", "score": "104-128" },
+      { "date": "2026-03-29", "opponent": "LAC", "result": "W", "score": "112-105" },
+      { "date": "2026-03-27", "opponent": "GSW", "result": "L", "score": "108-121" },
+      { "date": "2026-03-25", "opponent": "PHX", "result": "W", "score": "112-104" },
+      { "date": "2026-03-23", "opponent": "SAC", "result": "W", "score": "115-110" },
+      { "date": "2026-03-21", "opponent": "DEN", "result": "L", "score": "99-118" },
+      { "date": "2026-03-19", "opponent": "DAL", "result": "L", "score": "103-112" },
+      { "date": "2026-03-17", "opponent": "GSW", "result": "L", "score": "108-121" },
+      { "date": "2026-03-15", "opponent": "PHX", "result": "W", "score": "112-104" },
+      { "date": "2026-03-13", "opponent": "HOU", "result": "L", "score": "99-114" }
+    ],
+    "notable": "30-47, out of playoff picture. Playing for draft positioning — a POR win here hurts their lottery odds. Scoot Henderson developing as the face of the rebuild, averaging 21.3 PPG in March.",
+    "season_leader": "Scoot Henderson: 19.8 PPG, 7.4 APG"
+  },
+  "NOP": {
+    "last10": [
+      { "date": "2026-03-31", "opponent": "HOU", "result": "L", "score": "104-118" },
+      { "date": "2026-03-29", "opponent": "MEM", "result": "L", "score": "101-112" },
+      { "date": "2026-03-27", "opponent": "OKC", "result": "L", "score": "101-125" },
+      { "date": "2026-03-25", "opponent": "LAL", "result": "L", "score": "108-121" },
+      { "date": "2026-03-23", "opponent": "SAS", "result": "L", "score": "98-119" },
+      { "date": "2026-03-21", "opponent": "SAC", "result": "L", "score": "104-118" },
+      { "date": "2026-03-19", "opponent": "MIN", "result": "W", "score": "107-104" },
+      { "date": "2026-03-17", "opponent": "DEN", "result": "L", "score": "99-115" },
+      { "date": "2026-03-15", "opponent": "DAL", "result": "L", "score": "103-117" },
+      { "date": "2026-03-13", "opponent": "UTA", "result": "W", "score": "115-109" }
+    ],
+    "notable": "Lost 8 of last 10. 18-58, worst record in the West. Zion Williamson missed 40+ games this season (knee). Brandon Ingram is their only offensive weapon at 23.1 PPG. Full lottery race — this is a dead team walking.",
+    "season_leader": "Brandon Ingram: 23.1 PPG, 5.8 RPG, 5.1 APG"
+  },
+  "LAC": {
+    "last10": [
+      { "date": "2026-03-31", "opponent": "PHX", "result": "L", "score": "104-111" },
+      { "date": "2026-03-29", "opponent": "LAL", "result": "L", "score": "112-127" },
+      { "date": "2026-03-27", "opponent": "NOP", "result": "L", "score": "108-113" },
+      { "date": "2026-03-25", "opponent": "DEN", "result": "W", "score": "115-110" },
+      { "date": "2026-03-23", "opponent": "OKC", "result": "L", "score": "112-135" },
+      { "date": "2026-03-21", "opponent": "SAC", "result": "L", "score": "107-119" },
+      { "date": "2026-03-19", "opponent": "UTA", "result": "W", "score": "118-109" },
+      { "date": "2026-03-17", "opponent": "MEM", "result": "W", "score": "114-108" },
+      { "date": "2026-03-15", "opponent": "DAL", "result": "L", "score": "99-118" },
+      { "date": "2026-03-13", "opponent": "POR", "result": "L", "score": "105-112" }
+    ],
+    "notable": "Lost 3 straight, 7-seed clinging to a play-in spot. James Harden is questionable (knee soreness). Kawhi Leonard played 28 minutes last game — his most since returning from injury. LAC is only 3 games ahead of 9th-place Dallas. Facing SAS who has won 9 of 10.",
+    "season_leader": "Kawhi Leonard: 22.4 PPG, 6.8 RPG (in 47 games played)"
+  },
+  "SAS": {
+    "last10": [
+      { "date": "2026-03-31", "opponent": "HOU", "result": "W", "score": "121-118" },
+      { "date": "2026-03-29", "opponent": "MEM", "result": "W", "score": "128-104" },
+      { "date": "2026-03-27", "opponent": "PHX", "result": "W", "score": "124-108" },
+      { "date": "2026-03-25", "opponent": "OKC", "result": "W", "score": "119-109" },
+      { "date": "2026-03-23", "opponent": "NOP", "result": "W", "score": "119-98" },
+      { "date": "2026-03-21", "opponent": "UTA", "result": "W", "score": "130-111" },
+      { "date": "2026-03-19", "opponent": "DAL", "result": "W", "score": "118-112" },
+      { "date": "2026-03-17", "opponent": "MEM", "result": "L", "score": "109-112" },
+      { "date": "2026-03-15", "opponent": "LAL", "result": "W", "score": "112-105" },
+      { "date": "2026-03-13", "opponent": "OKC", "result": "L", "score": "117-121" }
+    ],
+    "notable": "Victor Wembanyama is OUT (injury). Without Wemby, SAS is a completely different team. Still won 9 of last 10 on depth and coaching, only 2 games behind OKC for the West #1 seed. Tonight at LAC — a crucial game for the 1-seed race, but now far less certain without their generational talent.",
+    "season_leader": "Victor Wembanyama: 33.8 PPG, 12.4 RPG, 4.2 BPG, 3.6 APG"
+  }
+}
