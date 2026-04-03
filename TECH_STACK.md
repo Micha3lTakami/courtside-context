@@ -1,18 +1,24 @@
 # Courtside Context — Tech Stack & Latency Analysis
 
+**Live:** https://courtside-context.vercel.app
+**Repo:** https://github.com/Micha3lTakami/courtside-context
+
 ## Stack Overview
 
 | Layer | Technology | Why |
 |-------|-----------|-----|
 | Framework | Next.js 14 App Router | Server components + API routes in one repo; zero-config Vercel deployment |
-| UI | React + Tailwind CSS | Fast iteration; Tailwind avoids CSS file sprawl |
+| Language | TypeScript | End-to-end type safety across API routes, components, and shared lib |
+| UI | React + Tailwind CSS | Fast iteration; CSS variables for theming; Tailwind avoids CSS file sprawl |
 | Animation | Framer Motion | Spring physics, `AnimatePresence`, `whileHover` — production-grade motion with minimal code |
-| AI | OpenAI `gpt-4.1-mini` | Faster and cheaper than gpt-4o-mini with equivalent JSON output quality |
-| Live Data | ESPN public APIs (no key) | Free, real-time scoreboard/standings/injuries; undocumented but stable |
-| Cache (persistent) | Upstash Redis (REST) | Survives serverless cold starts; shared across all function instances |
-| Cache (in-process) | Module-level `Map` | Zero-latency hits within a warm function instance; falls back to Redis |
-| Deployment | Vercel (serverless) | Auto-scaling, preview deploys, edge CDN for static assets |
+| AI | OpenAI `gpt-4.1-mini` | Fastest cheap model for structured JSON output; released April 2025 |
+| Live Data | ESPN public APIs (no key) | Free, real-time scoreboard/standings/injuries/rosters; undocumented but stable |
+| Fallback Data | balldontlie API v1 | Secondary game data source if ESPN scoreboard is empty |
+| Cache (in-process) | Module-level `Map` in `lib/data.ts` | Zero-latency hits within a warm function instance; TTLs per data type |
+| Cache (persistent) | Upstash Redis (REST) — optional | Survives serverless cold starts; shared across all function instances |
+| Deployment | Vercel Fluid Compute | Auto-scaling, 300s function timeout, edge CDN for static assets |
 | Images | ESPN CDN (`a.espncdn.com`) | Player headshots and team logos served directly; `unoptimized` to skip Next.js proxy |
+| Score Polling | Self-rescheduling `setTimeout` | 15s when live, 60s otherwise; avoids stale-closure bug of `setInterval` |
 
 ---
 
@@ -34,10 +40,8 @@ ESPN injuries   (~300ms)  ─┘
 
 Total per request: **~4–7 seconds**. With Vercel's default 10s function timeout, any slowness in ESPN or OpenAI pushes it over the edge (fixed by adding `export const maxDuration = 60`).
 
-### 3. OpenAI Token Generation (~3–6s)
-`gpt-4o-mini` generates output at roughly 150–200 tokens/sec. For 6 games × ~300 tokens each = ~1800 output tokens → **~9–12 seconds**. We're now set to `max_tokens: 2400` with a 60s timeout.
-
-`gpt-4o-mini` is the fastest cheap model for JSON generation. Switching to `gpt-4o` would be smarter but ~5× more expensive per token.
+### 3. OpenAI Token Generation (~2–5s)
+`gpt-4.1-mini` generates output faster than the previous `gpt-4o-mini`. For 6 games × ~300 tokens each = ~1800 output tokens, capped at `max_tokens: 2400` with a 60s function timeout (`export const maxDuration = 60`). The system prompt was also simplified to 3 rules to reduce input token overhead.
 
 ### 4. Stale Cache Overwrites Live Scores
 Context is cached for 20 minutes. When it loads, it was originally overwriting `status`/`time`/`score` fields with 20-minute-old values. **Fixed** by merging context into `prev` state instead of replacing it entirely.
@@ -112,10 +116,12 @@ Move OpenAI calls to a long-running service (e.g., Railway, Fly.io) instead of V
 |-----------|------|-----------|
 | Initial page paint | ~100ms | — |
 | `/api/games` (basic card data) | ~400ms | Yes (shows skeleton) |
-| Score polling (first) | ~300ms | No (background) |
-| `/api/context` total | 4–8s | No (shows empty state) |
-| `/api/league` total | 3–6s | No (section hidden until ready) |
-| `/api/game-detail` (on click) | 3–5s | No (drawer shows skeleton) |
+| Score polling — first call | ~300ms | No (merges into existing state) |
+| Score polling — live game interval | 15s | No (background) |
+| Score polling — no live game interval | 60s | No (background) |
+| `/api/context` total | 3–7s | No (shows cards without context while loading) |
+| `/api/league` total | 2–5s | No (section hidden until ready, own AbortController) |
+| `/api/game-detail` (on click) | 2–4s | No (drawer shows skeleton) |
 
 ---
 
