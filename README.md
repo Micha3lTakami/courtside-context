@@ -8,7 +8,8 @@
 ![Vercel](https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)
 ![ESPN API](https://img.shields.io/badge/ESPN_API-FF0000?style=for-the-badge&logo=espn&logoColor=white)
 
-> **Live:** [courtside-context.vercel.app](https://courtside-context.vercel.app)
+## Live Deployed Link
+[courtside-context.vercel.app](https://courtside-context.vercel.app)
 
 ---
 
